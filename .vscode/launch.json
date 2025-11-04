@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot Debug",
+      "request": "launch",
+      "mainClass": "com.paredesmorafernando.spring6webapp.Spring6WebappApplication",
+      "projectName": "spring-6-webapp",
+      "args": "",
+      "vmArgs": "-Dspring.profiles.active=dev"
+    }
+  ]
+}
